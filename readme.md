@@ -3,11 +3,11 @@
 
 Currently it expects pages to either physically exist or be present in Piranha CMS with the following paths:
 
-- Manger Error
-/manager/errors/{code}
+- Manger Errors/Not Found
+    - /manager/errors/{code}
 
-- CMS Error
-/errors/{code}
+- CMS UI Errors/Not Found
+    - /errors/{code}
 
 e.g
 ```
