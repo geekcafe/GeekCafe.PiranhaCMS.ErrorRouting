@@ -16,7 +16,7 @@ e.g
 etc
 ```
 
-Fallback, if it fails to find a valid path the folling template is used
+Fallback, if it fails to find a valid path the following basic internal template is used:
 
 ```c#
 CatchAllMessage = "" +
@@ -44,8 +44,8 @@ app.UseGeekCafeErrorRouting(httpClientFactory: app.Services.GetService<IHttpClie
 
 # Create a 404 page in the Piranha CMS
 
-1. Add a new page/folder named errors
-2. Add a sub page named 404 so that the path/slug errors/404
+1. Add a new page/folder named `errors`
+2. Add a sub page named 404 so that the path/slug is: `errors/404`
 
 attempt to goto an invalid page
 eg. on mine try:
